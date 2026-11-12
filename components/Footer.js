@@ -159,6 +159,25 @@ export default function Footer() {
             <span>{t.footer.rights}</span>
             <span>{t.footer.madeWith}</span>
           </div>
+          {/* Founder credit (2026-11-13): a do-follow entity link to the founder's profile and his company. */}
+          <p className="mt-3 text-center text-xs leading-relaxed text-ink-100/55 sm:text-left">
+            Founded &amp; architected by{' '}
+            <a
+              href="https://vinay.opsx.in"
+              rel="author"
+              className="font-semibold text-gold-300 transition-colors hover:text-saffron-400"
+            >
+              Vinay Kumar
+            </a>{' '}
+            (System Architect &amp; Founder at{' '}
+            <a
+              href="https://opsx.in"
+              className="font-semibold text-gold-300 transition-colors hover:text-saffron-400"
+            >
+              OpsX
+            </a>
+            )
+          </p>
         </div>
       </div>
     </footer>
